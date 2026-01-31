@@ -1,17 +1,16 @@
 package com.notebook.user;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.Embeddable;
 import jakarta.validation.constraints.NotEmpty;
 
-@Entity
+/**
+ * Value object representing a user's address.
+ *
+ * This class is mapped as an {@link jakarta.persistence.Embeddable} so that all
+ * its fields are stored in the owning entity's table (e.g. {@code UserDetails}).
+ */
+@Embeddable
 public class Address {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id; // Add an ID field for the entity
 
     @NotEmpty(message = "Address Line 1 is required")
     private String Address1;
@@ -30,7 +29,6 @@ public class Address {
     @NotEmpty(message = "Zip Code is required")
     private String zipCode;
 
-    // No-argument constructor
     public Address() {}
 
     // Getters and Setters

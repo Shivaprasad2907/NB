@@ -10,9 +10,5 @@ public interface NBUserService {
 
     UserRegister registerUser(UserRegister userRegister);
     UserLogin loginUser(UserLogin userLogin);
-    // UserRegister getUserById(Integer id);
-    // UserRegister updateUser(UserRegister userRegister);
-    // void deleteUser(Integer id);
 
 }
- 

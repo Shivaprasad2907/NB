@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-NoteBookApplication<Note-Book-User>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.notebook.NoteBookApplication",
+            "projectName": "Note-Book-User",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
