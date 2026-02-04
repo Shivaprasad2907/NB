@@ -3,6 +3,9 @@
     "java.configuration.updateBuildConfiguration": "automatic",
     "cSpell.words": [
         "embbed",
-        "gona"
+        "gona",
+        "Jwts",
+        "serviceimpl",
+        "starttls"
     ]
 }

@@ -35,6 +35,9 @@ public class UserDetails {
     @Embedded
     private Address address;
 
+    private boolean emailVerified;
+
+    private String role;
    
 
 }

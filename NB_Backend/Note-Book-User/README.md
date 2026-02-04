@@ -1,11 +1,11 @@
 NB BAckend Server Creation:
+Phase 1:
     - First phase of Login and Register Module is Created without Security using H2-DataBase
     - Created User Model 
         - Register
-            - Registering User Details for first time and send successfully register email with first time login verification link
+            - Registering User Details 
         - Login
-            - Pulls User Email and Password according to given information by user at login page and verify through email for user Exists in database
-            - send Account Locked email after login attempt failed for 5 times.
+            - Pulls User Email and Password 
         - Address
             - Used for Address Module Linked to Both Register and UserDetail Classes
         - UserDetails
@@ -19,6 +19,7 @@ Phase 2:
         - and Password Encoder
 
 phase 3: 
+    - Advance Security at registration and login verification:
          - Register
             - Registering User Details for first time and send successfully register email with first time login verification link
         - Login
