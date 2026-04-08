@@ -51,3 +51,24 @@ Hey, I'm gona explain about my project structure and implementation till Now:
 and 
 - want to implement about jwt with session management, oauth(with userdetail storage to database and vice vers)
 - session tracking , session id(details) storage up to last 3 sessions with all pages associated with all pages link in dashboard after login.
+
+
+
+                            Registeration page
+                                |
+                            User Filled Details
+                                |
+                            user Register
+                                |
+                            Email Verification mail sent
+                                |
+                            User Login\
+                                |
+                            user verified or not
+                                |
+                               / \
+                       verified   not -------> verifiy email first ( Verification is doing well)
+                            |
+                        Login Succesful 
+                            |
+                        Entiled with jwt token
